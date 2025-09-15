@@ -1,8 +1,8 @@
-require_relative '../lib/01_temperature'
+require_relative '../lib/01_temperature.rb'
 
 describe "temperature conversion functions" do
 
-  describe "#ftoc" do
+  describe #ftoc" do
 
     it "converts freezing temperature" do
       expect(ftoc(32)).to eq(0)
@@ -47,4 +47,3 @@ describe "temperature conversion functions" do
 
   end
 
-end
